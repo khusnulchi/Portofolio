@@ -1,0 +1,122 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*header*/
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana; 
+}
+
+.wrapper {
+    margin: auto;
+    position: relative;
+    width: 1500px;
+}
+
+.logo {
+ float: left;
+ margin-left: 1cm;
+ margin-top: 0.7cm;
+ margin-bottom: 0.45cm;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    line-height: 60px;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    background: #1d1f50;
+    z-index: 1;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    margin-right: 0.5cm;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #fbcd15;
+}
+
+
+/*menu*/
+.opsi{
+    margin-left: 0cm;
+    text-align: center;
+    position: relative;
+    font-size: 15px;    
+}
+
+.Digital.Imaging{
+    margin-bottom: 10px ;
+    position: absolute;
+    list-style-type: none;
+    overflow: hidden;
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+    background: #1d1f50;
+    line-height: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 0.5cm;
+    padding: 5px 5px 3px 5px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 30%;
+    margin-left: 35%;
+}
+
+h1:hover{
+    background: #fbcd15;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+/*footer*/
+.end{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 20px;
+    background: #f0f3f8;
+    line-height: 200px;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+}
